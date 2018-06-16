@@ -1,67 +1,17 @@
-#  Werkspot_Test
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
+# Welcome
 
-* Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
+Thank you for taking your time and agreeing to take this challenge as part of our recruitment process. We understand that sometimes it can be hard to find enough time to dedicate yourself properly to this type of activity, so if for any reason you have problems related to it let us know and communicate properly what you've done and what you were still planning to do if you had more time. 
 
-## :arrow_up: How to Setup
+The challenge is to build _YOUR OWN IMPLEMENTATION_ of the (Hacker News website)[https://news.ycombinator.com/]. For doing so, you are encouraged to consume data from the open HN api - https://github.com/HackerNews/API, but this is not a requirement. This compressed folder has a git repository initialized. You are supposed to version your files and describe your changes using git, so there should be a `.git` folder accompanying your solution. 
 
-**Step 1:** git clone this repo:
+The objective of this challenge is to assess your ability with javascript itself, so we expecte you to use _vanilla javascript_ to build the solution. You are free to use any tools you want to create tests for your application, if you feel like doing it. 
 
-**Step 2:** cd to the cloned repo:
+The application code will be reviewed and the application itself will be tested on a high-end mobile device.
 
-**Step 3:** Install the Application with `yarn` or `npm i`
+You don't have to worry with the back-end implementation. When testing we'll make sure we serve the files on this repository properly. 
 
+Imagine that you are already working at Werkspot, we want to build an improved version of HN and you were assigned the task to start it's front-end implementation.
 
-## :arrow_forward: How to Run App
+From the moment we send you this repository, you have 48 hours to work on it.
 
-1. cd to the repo
-2. Run Build for either OS
-  * for iOS
-    * run `react-native run-ios`
-  * for Android
-    * Run Genymotion
-    * run `react-native run-android`
-
-## :no_entry_sign: Standard Compliant
-
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-This project adheres to Standard.  Our CI enforces this, so we suggest you enable linting to keep your project compliant during development.
-
-**To Lint on Commit**
-
-This is implemented using [husky](https://github.com/typicode/husky). There is no additional setup needed.
-
-**Bypass Lint**
-
-If you have to bypass lint for a special commit that you will come back and clean (pushing something to a branch etc.) then you can bypass git hooks with adding `--no-verify` to your commit command.
-
-**Understanding Linting Errors**
-
-The linting rules are from JS Standard and React-Standard.  [Regular JS errors can be found with descriptions here](http://eslint.org/docs/rules/), while [React errors and descriptions can be found here](https://github.com/yannickcr/eslint-plugin-react).
-
-## :closed_lock_with_key: Secrets
-
-This project uses [react-native-config](https://github.com/luggit/react-native-config) to expose config variables to your javascript code in React Native. You can store API keys
-and other sensitive information in a `.env` file:
-
-```
-API_URL=https://myapi.com
-GOOGLE_MAPS_API_KEY=abcdefgh
-```
-
-and access them from React Native like so:
-
-```
-import Secrets from 'react-native-config'
-
-Secrets.API_URL  // 'https://myapi.com'
-Secrets.GOOGLE_MAPS_API_KEY  // 'abcdefgh'
-```
-
-The `.env` file is ignored by git keeping those secrets out of your repo.
-
-### Get started:
-1. Copy .env.example to .env
-2. Add your config variables
-3. Follow instructions at [https://github.com/luggit/react-native-config#setup](https://github.com/luggit/react-native-config#setup)
-4. Done!
+Feel free to ask us any questions and have fun!
