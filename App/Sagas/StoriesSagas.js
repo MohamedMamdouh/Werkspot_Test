@@ -1,6 +1,10 @@
 import { call, put } from 'redux-saga/effects'
 import StoriesActions from '../Redux/StoriesRedux'
 
+// Todos
+// Error Handling
+// Getting stories ids list once 
+
 export function * getStories (api, action) {
   const { _page } = action
   let sList = []
