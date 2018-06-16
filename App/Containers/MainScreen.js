@@ -15,6 +15,10 @@ import HackerNewsListItem from "../Components/HackerNewsListItem";
 // Styles
 import styles from "./Styles/MainScreenStyles";
 
+//ToDos
+// Code indentation and commenting
+// Optmize component life cycle and flat list
+
 class MainScreen extends Component {
   constructor(props) {
     super(props);
