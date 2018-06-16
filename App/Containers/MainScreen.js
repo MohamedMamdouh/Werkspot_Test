@@ -16,8 +16,9 @@ import HackerNewsListItem from "../Components/HackerNewsListItem";
 import styles from "./Styles/MainScreenStyles";
 
 //ToDos
-// Code indentation and commenting
+// Adding loading Indicator !!!
 // Optmize component life cycle and flat list
+// Code indentation and commenting
 
 class MainScreen extends Component {
   constructor(props) {
